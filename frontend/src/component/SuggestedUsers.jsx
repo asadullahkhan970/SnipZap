@@ -31,7 +31,7 @@ const SuggestedUsers = () => {
 
 	return (
 		<>
-			<Text mb={4} fontWeight={"bold"} >
+			<Text mb={4} fontWeight={"bold"}>
 				Suggested Users
 			</Text>
 			<Flex direction={"column"} gap={4}>
@@ -55,9 +55,24 @@ const SuggestedUsers = () => {
 						</Flex>
 					))}
 			</Flex>
+			{/* Footer Section */}
+			<Flex direction="column" alignItems="center" mt={8} gap={2}>
+				{/* SNIPZAP title */}
+				<Text fontSize={"lg"} fontWeight={"bold"}>
+					SNIPZAP
+				</Text>
+				{/* Subtitle */}
+				<Text fontSize={"md"} fontWeight={"medium"} color={"gray.600"}>
+					A Social Media Platform
+				</Text>
+				{/* Developer */
+				<Text fontSize={"sm"} fontWeight={"semibold"} color={"gray.500"}>
+					Developed By @Asadullah Khan
+				</Text>
+			</Flex>
+
 		</>
 	);
 };
 
 export default SuggestedUsers;
-
