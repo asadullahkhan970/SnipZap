@@ -65,7 +65,7 @@ const SuggestedUsers = () => {
 				<Text fontSize={"md"} fontWeight={"medium"} color={"gray.600"}>
 					A Social Media Platform
 				</Text>
-				{/* Developer */
+				{/* Developer */}
 				<Text fontSize={"sm"} fontWeight={"semibold"} color={"gray.500"}>
 					Developed By @Asadullah Khan
 				</Text>
